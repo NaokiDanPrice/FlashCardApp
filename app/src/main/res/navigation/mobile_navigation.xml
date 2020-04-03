@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_select_a_deck">
+
+    <fragment
+        android:id="@+id/navigation_tips"
+        android:name="com.example.flashcardapp.Fragments.TipsFragment"
+        android:label="@string/title_tips"
+        tools:layout="@layout/fragment_tips" />
+
+    <fragment
+        android:id="@+id/navigation_select_a_deck"
+        android:name="com.example.flashcardapp.Fragments.SelectionFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_selection" />
+
+    <fragment
+        android:id="@+id/navigation_tools"
+        android:name="com.example.flashcardapp.Fragments.ToolsFragment"
+        android:label="@string/title_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/navigation_create_a_deck"
+        android:name="com.example.flashcardapp.Fragments.CreateADeckFragment"
+        tools:layout="@layout/fragment_create_adeck" />
+
+</navigation>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FlashCardApp</string>
+    <string name="title_tips">Tips</string>
+    <string name="title_tools">Tools</string>
+    <string name="title_new_deck">New Deck</string>
+    <string name="title_view_deck">View Deck</string>
+    <string name="title_home">Home</string>
+</resources>
